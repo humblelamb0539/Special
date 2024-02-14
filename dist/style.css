@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background-image: url(https://i.postimg.cc/KvPRYXqd/wallpeper-edit.png);
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+  background-color: rgb(31, 31, 31);
+}
+.body {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.question {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  color:crimson;
+  padding-left: 5%;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.Yes {
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: pink;
+}
+.mainbtn {
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: crimson;
+}
